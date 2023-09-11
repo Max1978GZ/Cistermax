@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TxtAyuda.Text" xml:space="preserve">
+    <value>Cargar IOS Router Cisco en modo Rommon
+rommon 1 &gt; IP_ADDRESS=192.168.111.1
+rommon 2 &gt; TFTP_FILE=c2600-js-mz.122-29.bin
+rommon 3 &gt; DEFAULT_GATEWAY=192.168.111.254
+rommon 4 &gt; IP_SUBNET_MASK=255.255.255.0
+rommon 5 &gt; TFTP_SERVER=192.168.111.254
+rommon 6 &gt; tftpdnld
+
+IP_ADDRESS: 192.168.111.1 --&gt; Esta es la IP de tu Router (sin IOS) 
+IP_SUBNET_MASK: 255.255.255.0 --&gt; Mascara de Subred 
+DEFAULT_GATEWAY: 192.168.111.254 --&gt; Puerta de Enlace o Bien Router Server TFTP_SERVER: 192.168.111.254 --&gt; Server router (al que dejaste como server) TFTP_FILE: c2600-js-mz.122-29.bin --&gt; Nombre de la IOS (no te equivoques en escribirla)
+Nota: debes escribir los comandos asi.. IP_ADDRESS=10.0.0.1 (con signo = )
+
+Invoke this command for disaster recovery only.WARNING: all existing data in all partitions on flash will be lost!Do you wish to continue? y/n: [n]: y
+Receiving c2600-js-mz.122-29.bin from 192.168.111.254 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!File reception completed.Copying file c2600-js-mz.122-29.bin to flash.Erasing flash at 0x61fc0000program flash location 0x60b80000rommon 7 &gt; confreg 0x2102 --&gt; Aqui haces el cambio de configuracion inicial...
+0x2102 --&gt; indica que partira de la ultima configuracion que se guardo.
+0x2142 --&gt; indica que se saltara la configuracion que estuvo guardada en la nvram t partira sin configuracion. 
+Sirve mucha para quebrar password.
+Para dejar el router como servidor tftp te metes a Conf T y escribes
+tftp-server flash:"IOS"--&gt; nombre de la imagen presiona el tab y te lo completa.
+
+
+
+Los routers tienen varios Modos y Submodos de configuración.
+
+Modo Exec Usuario: Este modo solo permite ver información limitada de la configuración del router y no permite modificación alguna de ésta.
+
+Modo Exec Privilegiado: Este modo permite ver en detalle la configuración del router para hacer diagnósticos y pruebas. También permite trabajar con los archivos de configuración del router (Flash - NVRAM).
+
+Modo de Configuración Global: Este modo permite la configuración básica de router y permite el acceso a submodos de configuración específicos.
+
+NOMBRAR AL ROUTER
+
+router&gt; enable
+router# configure terminal 
+router(config)# hostname RouterA (nombra al router como)
+RouterA(config)#
+
+CONFIGURAR CONTRASEÑAS "ENABLE SECRET" Y "ENABLE PASSWORD"
+
+RouterA&gt; enable
+RouterA# configure terminal 
+RouterA(config)# enable secret contraseña * (configura contraseña Enable Secret)
+RouterA(config)# enable password contraseña (configura contraseña Enable Password)
+RouterA(config)#
+
+* Es recomendable configurar Enable Secret ya que genera una clave global cifrada en el router.
+
+CONFIGURAR CONTRASEÑA DE CONSOLA
+
+RouterA&gt; enable
+RouterA# config terminal
+RouterA(config)# line con 0 (ingresa a la Consola)
+RouterA(config-line)# password contraseña (configura contraseña)
+RouterA(config-line)# login (habilita la contraseña)
+RouterA(config-line)# exit
+RouterA(config)#
+
+CONFIGURAR CONTRASEÑA VTY (TELNET)
+
+RouterA&gt; enable
+RouterA# config terminal
+RouterA(config)# line vty 0 4 (crea las 5 líneas VTY, pero podría ser una sola. Ej: line vty 0)
+RouterA(config-line)# password contraseña (contraseña para las 5 líneas en este caso)
+RouterA(config-line)# login (habilita la contraseña)
+RouterA(config-line)# exit
+RouterA(config)#
+
+CONFIGURAR INTERFACES ETHERNET ó FAST ETHERNET
+
+RouterA&gt; enable
+RouterA# config terminal
+RouterA(config)# interface fastethernet 0/0 * (ingresa al Submodo de Configuración de Interfaz)
+RouterA(config-if)# ip address 192.168.0.1 255.255.255.0 (configura la IP en la interfaz)
+RouterA(config-if)# no shutdown (levanta la interfaz)
+RouterA(config-if)# description lan (asigna un nombre a la interfaz)
+RouterA(config-if)# exit
+RouterA(config)#
+
+* Tener en cuenta que la interfaz puede ser Ethernet o Fast Ethernet y que el número de interfaz puede ser 0, 1, 0/0, 0/1, etc. Esto varía según el router.
+
+CONFIGURAR INTERFACES SERIAL COMO DTE
+
+RouterA&gt; enable
+RouterA# config terminal
+RouterA(config)# interface serial 0/0 * (ingresa al Submodo de Configuración de Interfaz)
+RouterA(config-if)# ip address 10.0.0.1 255.0.0.0 (configura la IP en la interfaz)
+RouterA(config-if)# no shutdown (levanta la interfaz)
+RouterA(config-if)# description red (asigna un nombre a la interfaz)
+RouterA(config-if)# exit
+RouterA(config)#
+
+* Tener en cuenta que el número de interfaz puede ser 0, 1, 0/0, 0/1, etc. Esto varía según el router.
+
+CONFIGURAR INTERFACES SERIAL COMO DCE
+
+RouterB&gt; enable
+RouterB# config terminal
+RouterB(config)# interface serial 0/1 * (ingresa al Submodo de Configuración de Interfaz)
+RouterB(config-if)# ip address 10.0.0.2 255.0.0.0 (configura la IP en la interfaz)
+RouterB(config-if)# clock rate 56000 (configura la sincronización entre los enlaces)
+RouterB(config-if)# no shutdown (levanta la interfaz)
+RouterB(config-if)# description red (asigna un nombre a la interfaz)
+RouterB(config-if)# exit
+RouterB(config)#
+
+
+Acá les dejo un listado muy completo de Comandos Cisco IOS para configuración de routers, cada uno con su correspondiente explicación.
+
+En esta parte van a encontrar los comandos del Modo Exec Usuario, Modo Exec Privilegiado y el Modo de Configuración Global, los dividí en 2 partes porque sino iba a quedar muy extenso.
+
+La segunda parte del listado de comandos está acá.
+
+Quiero agradecer a Héctor que colaboró con varios tutoriales y documentos, como éste, que voy a ir adaptando y subiendo en estos días. 
+
+MODO EXEC USUARIO
+Comando
+Descripción
+connect {dirección_ip|nombre}
+Permite conectarse remotamente a un host
+disconnect conexión
+Desconecta una sesión telnet establecida desde el router
+enable
+Ingresa al modo EXEC Privilegiado
+logout
+Sale del modo EXEC
+ping {dirección_ip|nombre}
+Envía una petición de eco para diagnosticar la conectividad básica de red
+resume conexión
+Resume una sesión telnet interrumpida con la secuencia CTRL+SHIFT+6 y X
+show cdp
+Muestra el intervalo entre publicaciones CDP, tiempo de validez y versión de la publicación
+show cdp entry [*|nombre_dispositivo] [protocol|version]}
+Muestra información acerca de un dispositivo vecino registrado en una tabla CDP
+show cdp interfaces [tipo número]
+Muestra información acerca de las interfaces en las que CDP está habilitado
+show cdp neighbors [tipo número] [detail]
+Muestra los resultados del proceso de descubrimiento de CDP
+show clock
+Muestra la hora y fecha del router
+show history
+Muestra el historial de comandos ingresados
+show hosts
+Muestra una lista en caché de los nombres de host y direcciones
+show ip interface brief
+Muestra un breve resumen de la información y del estado de una dirección IP
+show ip rip database
+Muestra el contenido de la base de datos privada de RIP
+show ip route [dirección |protocolo]
+Muestra el contenido de la tabla de enrutamiento IP. El parámetro dirección permite acotar la información que se desea visualizar, exclusivamente a la dirección ingresada. El parámetro protocolo permite indicar la fuente de aprendizaje de las rutas que se desean visualizar, como por ejemplo rip, igrp, static y connected
+show sessions
+Muestra las conexiones Telnet establecidas en el router
+show version
+Muestra información sobre el Cisco IOS y la plataforma
+telnet {dirección_ip|nombre}
+Permite conectarse remotamente a un host
+terminal editing
+Reactiva las funciones de edición avanzada
+terminal history size numero_líneas
+Establece el tamaño del buffer del historial de comandos
+terminal no editing
+Deshabilita las funciones de edición avanzada
+traceroute dirección_ip
+Muestra la ruta tomada por los paquetes hacia un destino
+
+
+MODO EXEC PRIVILEGIADO
+Comando
+Descripción
+clear cdp counters
+Restaura los contadores de tráfico CDP a cero
+clear cdp table
+Elimina la tabla CDP de información de los vecinos
+clear counters
+Despeja los contadores de las interfaces
+configure memory
+Carga información de configuración de la NVRAM
+configure terminal
+Configura la terminal manualmente desde la terminal de consola
+copy flash tftp
+Copia la imagen del sistema desde la memoria Flash a un servidor TFTP
+copy running-config startup-config
+Guarda la configuración activa en la NVRAM
+copy running-config tftp
+Almacena la configuración activa en un servidor TFTP
+copy tftp flash
+Descarga una nueva imagen desde un servidor TFTP en la memoria Flash
+copy tftp runnig-config
+Carga la información de configuración desde un servidor TFTP
+debug cdp adjacency
+Muestra información recibida de vecinos CDP
+debug cdp events
+Muestra información sobre eventos CDP
+debug cdp ip
+Muestra información CDP específica de IP
+debug cdp packets
+Muestra información relacionada a los paquetes CDP
+debug ip igrp events
+Muestra todos los eventos IGRP que se están enviando y recibiendo en el router.
+debug ip igrp transactions
+Muestra las actualizaciones IGRP que se están enviando y recibiendo en el router
+debug ip rip
+Muestra información sobre las actualizaciones de enrutamiento RIP mientras el router las envía y recibe
+debug ip rip [events]
+Muestra las actualizaciones de enrutamiento RIP a medida que se las envía y recibe
+disable
+Sale del modo EXEC Privilegiado hacia el modo EXEC Usuario
+erase flash
+Borra el contenido de la memoria Flash
+erase startup-config
+Borra el contenido de la NVRAM
+no debug all
+Desactiva todas las depuraciones activadas en el dispositivo
+reload
+Reinicia el router
+setup
+Entra a la facilidad de Diálogo de configuración inicial
+show access-lists [Nro_ACL|Nom-bre_ACL]
+Muestra el contenido de todas las ACL en el router. Para ver una lista específica, agregue el nombre o número de ACL como opción a este comando
+show arp
+Muestra la asignación de direcciones IP a MAC a Interfaz del router
+show cdp traffic
+Muestra los contadores CDP, incluyendo el número de paquetes enviados y recibidos, y los errores de checksum
+show controllers serial [número]
+Muestra información importante como que tipo de cable se encuentra conectado
+show debugging
+Muestra información acerca de los tipos de depuraciones que están habilitados
+show flash
+Muestra la disposición y contenido de la memoria Flash
+show interfaces [tipo número]
+Muestra estadísticas para la/las interfaces indicadas
+show ip interface [tipo número]
+Muestra los parámetros de estado y globales asociados con una interfaz
+show ip protocols [summary]
+Muestra los parámetros y estado actual del proceso de protocolo de enrutamiento activo
+show memory
+Muestra estadísticas acerca de la memoria del router, incluyendo estadísticas de memoria disponible
+show processes
+Muestra información acerca de los procesos activos
+show protocols
+Muestra los protocolos de capa 3 configurados
+show running-config
+Muestra la configuración actual en la RAM
+show sessions
+Muestra las conexiones Telnet establecidas en el router
+show stacks
+Controla el uso de la pila de procesos y rutinas de interrupción y muestra la causa del último rearranque del sistema
+show startup-config
+Muestra la configuración que se ha guardado, que es el contenido de la NVRAM
+terminal monitor
+Si se utiliza una sesión por telnet para examinar el router, entonces, permite redirigir el resultado y los mensajes del sistema hacia a terminal remota
+undebug all
+Desactiva todas las depuraciones activadas en el dispositivo
+
+
+MODO DE CONFIGURACIÓN GLOBAL
+Comando
+Descripción
+access-list Nro_ACL {permit|deny} Origen
+Crea o agrega una sentencia de condición a la ACL que permitirá o denegará los paquetes que llegan desde un Origen. Este último parámetro puede ser una dirección IP más una máscara wildcard, la palabra host más una dirección IP o el wildcard any
+access-list Nro_ACL {permit|deny} Proto Origen Destino [Operador Nro_puerto] [established][echo |echo-reply]
+Crea o agrega una sentencia de condición a la ACL que permitirá o denegará los paquetes que lleguen desde un Origen y vayan hacia un Destino. Proto identifica el protocolo a verificar. Origen y Destino pueden ser una dirección IP más una máscara wildcard, la palabra host más una dirección IP o el wildcard any. Operador puede ser lt (menor que), gt (mayor que), eq (igual a) o neq (distinto a). Nro_puerto indica el puerto TCP o UDP. El parámetro established permite el paso de tráfico cuando hay una sesión establecida. En el caso del protocolo ICMP se puede utilizar echo o echo-reply.
+Banner motd #mensaje del día#
+Configura un cartel con un mensaje del día. Ej: banner motd #Bienvenido#
+boot system flash [nombre_imagen_IOS]
+Especifica que el router cargue el IOS desde la Flash
+Ej: boot system flash c2500-IOS
+boot system rom
+Especifica que el router cargue el IOS desde la ROM
+boot system tftp nombre_imagen_IOS dir_IP_server_tftp
+Especifica que el router cargue el IOS desde un servidor TFTP. Ej: boot system tftp c2500-IOS 24.232.150.1
+cdp run
+Habilita CDP globalmente en el router
+clock set hh : mm : ss mes día año
+Modificar la fecha y hora del router. Ej: clock set 12:31:00 July 12 2004
+config-register valor_registro_configuración
+Cambia los valores del registro de configuración. Ej: config-register 0x2142
+enable password contraseña
+Establece una contraseña local para controlar el acceso a los diversos niveles de privilegio. Ej: enable password class
+enable secret contraseña
+Especifica una capa de seguridad adicional mediante el comando enable password. Ej: enable secret class
+hostname nombre
+Modifica el nombre del router. Ej: hostname Lab_A
+interface tipo número
+Configura un tipo de interfaz y entra al modo de configuración de interfaz. Ej: interface ethernet 0
+ip access-list {tandard|extended} Nombre
+Permite crear una ACL nombrada. Se debe indicar el tipo. Este comando ingresa al router al submodo de configuración que puede reconocerse por el prompt
+ip classless
+Permite que el router no tome en cuenta los límites con definición de clases de las redes en su tabla de enrutamiento y simplemente transmita hacia la ruta por defecto
+ip default-network dirección_red
+Establece una ruta por defecto. Ej: ip default-network 210.32.45.0
+ip domain-lookup
+Habilita la conversión de nombre a dirección en el router
+ip host nombre_host dir_ip1 ... Dir_ip8
+Crea una entrada de nombre a dirección estática en el archivo de configuración del router. Ej: ip host Lab_A 192.168.5.1 210.110.11.1
+ip http server
+Permite que el router actúe como servidor Web http limitado
+ip name-server dir_ip1 ... Dirip6
+Especifica las direcciones de hasta seis servidores de nombres para su uso para la resolución de nombres y direcciones.
+Ip route dirección_red máscara dir_ip_salto [distancia_administrativa]
+Establece rutas estáticas. Ej: ip route 210.42.3.0 255.255.255.0 211.1.2.1
+line tipo número
+Identifica una línea específica para la configuración e inicia el modo de reunión de comandos de configuración. Ej: line console 0 ó line vty 0 4
+router protocolo_de_enrutamiento [nro_AS]
+Inicia un proceso de enrutamiento definiendo en primer lugar un protocolo de enrutamiento IP. Ej: router rip ó router igrp 120
+service password-encryption
+Habilita la función de cifrado de la contraseña
+
+Esta es la segunda parte del listado de Comandos Cisco IOS para configuración de routers.
+
+En esta parte van a encontrar los comandos de Submodo de Configuración de Línea, Submodo de Configuración de Interfaz, Submodo de Configuración de Protocolos de Enrutamiento y Comandos de Edición y Otros, cada uno con su correspondiente explicación.
+
+La primer parte del listado de comandos está acá.
+
+SUBMODO DE CONFIGURACIÓN DE LÍNEA
+Comando
+Descripción
+access-class Nro_ACL in	
+En las líneas VTY, asigna una lista de control de acceso a las conexiones establecidas via Telnet
+login	
+Habilita la verificación de contraseña en el momento de la conexión.
+password [contraseña]	
+Asigna la contraseña a ser solicitada en el momento de la conexión
+
+SUBMODO DE CONFIGURACIÓN DE INTERFAZ
+Comando
+Descripción
+bandwidth Kbps	
+Establece un valor de ancho de banda para una interfaz. Ej: bandwidth 64
+cdp enable	
+Habilita Cisco Discovery Protocol en una interfaz
+cdp holdtime segundos	
+Especifica el tiempo de espera antes de ser enviada la siguiente actualización CDP
+cdp timer segundos	
+Especifica la frecuencia con que son envíadas actualizaciones CDP
+clock rate velocidad	
+Configura la velocidad de reloj para las conexiones de hardware en interfaces seriales, como módulos de interfaz de red y procesadores de interfaz a una velocidad de bits aceptable. Ej: clock rate 56000
+description descripción	
+Agrega una descripción a la interfaz. Ej: description Conectada a Internet
+ip access-group Nro_ACL [in|out]	
+Asigna la ACL indicada a la interfaz, ya sea para que verifique los paquetes entrantes (in) o los salientes (out)
+ip address dirección_ip mascara_red	
+Asigna una dirección y una máscara de subred e inicia el procesamiento IP en una interfaz. Ej: ip address 192.168.52.1 255.255.255.0
+no ip route-cache	
+Para deshabilitar el balanceo de carga por destino, que está habilitado por defecto
+no ip split-horizon	
+Deshabilita el horizonte dividido en la interfaz, que por defecto se encuentra habilitado. Para volver habilitarlo utilice el comando ip split-horizon
+no shutdown	
+Reinicia una interfaz desactivada
+shutdown	
+Inhabilita una interfaz
+
+
+SUBMODO DE CONFIG. DEL PROT. DE ENRUTAMIENTO
+Comando
+Descripción
+maximum-paths valor	
+Permite modificar el máximo de rutas sobre las que balanceará la carga
+metric weights tos k1 k2 k3 k4 k5	
+Permite modificar los valores de las constantes utilizadas para el cálculo de las métricas de las rutas en el protocolo de enrutamiento IGRP. Los valores por defecto son: tos (tipo de servicio)= 0; k1= 1; k2= 0; k3= 1; k4= 0 y k5= 0
+neighbor dirección_ip	
+Como RIP es un protocolo de tipo broadcast, el administrador de la red podría tener que configurarlo para que intercambie información de enrutamiento en redes no broadcast, como en el caso de las redes Frame Relay. En este tipo de redes, RIP necesita ser informado de otros routers RIP vecinos
+network dirección_red	
+Asigna una dirección de rd a la cual el router se encuentra directamente conectado, lo que hara que se envíe y reciba publicaciones de enrutamiento a través de esa interfaz, además de que dicha sea publicada a los routers vecinos. Ej: network 210.45.2.0
+no timers basic	
+Regresa los temporizadores a los valores por defecto
+passive-interface tipo número	
+El router no enviará información de enrutamiento por la interfaz indicada. Ej: passive-interface serial 0
+redistribute static	
+Si se asigna una ruta estática a una interfaz que no está definida en el proceso RIP o IGRP, mediante el comando network, no será publicada la ruta a menos que se especifique este comando
+timers basic Actualización Inválida Espera Purga [Suspensión]	
+Indica la frecuencia con la que RIP o IGRP envían actualizaciones y los intervalos de los temporizadores.
+Actualización: intervalo en segundos a la que se envían las actualizaciones (RIP: 30 seg; IGRP: 90 seg).
+Inválida: Intervalo de tiempo en segundos después del cual una ruta se declara no válida. Sin embargo, la ruta todavía se utiliza para el envío de paquetes (RIP: 180 seg; IGRP: 270 seg).
+Espera: Intervalo en segundos durante el cual se suprime la información de enrutamiento que se refiere a las mejores rutas (RIP: 180 seg; IGRP: 280 seg).
+Purga: Intervalo de tiempo en segundos que debe transcurrir antes de que la ruta se elimine de la tabla de enrutamiento (RIP: 240 seg; IGRP: 630 seg). 
+Suspensión: Intervalo en milisegundos en que se posponen las actualizaciones de enrutamiento de cuando se produce una actualización flash. Sólo IGRP.
+variance valor	
+El valor de variación determina si IGRP aceptará rutas de costo desigual. Sólo aceptará rutas iguales a la mejor métrica local para el destino multiplicado por el Valor de variación. El valor puede variar de 1 (por defecto) a 128
+
+
+COMANDOS DE EDICIÓN Y OTROS
+Teclas / Comando
+Descripción
+Ctrl+A	
+Permite desplazarse al principio de la línea de comandos
+Esc+B	
+Permite desplazarse una palabra hacia atrás
+Ctrl+B (o Flecha Izquierda)	
+Permite desplazarse un carácter hacia atrás
+Ctrl+E	
+Permite desplazarse hasta el final de la línea de comandos
+Ctrl+F (o Flecha Derecha)	
+Permite desplazarse un carácter hacia delante
+Ctrl+P (o Flecha Arriba)	
+Muestra el último comando ingresado
+Ctrl+N (o Flecha Abajo)	
+Muestra el comando más reciente
+(tecla Tabulador)	
+Completa el comando ingresado parcialmente
+Ctrl+Z (o end)	
+Estando en cualquier modo de configuración regresa al modo EXEC Privilegiado
+Ctrl+C	
+Cancela la ejecución del Dialogo de configuración inicial o Setup
+Ctrl+Shift+6	
+Permite interrumpir intentos de ping, traceroute y traducciones de nombres
+exit	
+Estando en el modo de configuración global o cualquiera de sus submodos regresa al modo anterior. Estando en los modos EXEC Usuario o EXEC Privilegiado, cierra la sesión
+</value>
+  </data>
+</root>

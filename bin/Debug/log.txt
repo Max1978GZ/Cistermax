@@ -1,0 +1,3584 @@
+
+rommon 9 > 
+rommon 9 > 
+rommon 9 > 
+rommon 9 > 
+rommon 9 > 
+rommon 9 > 
+rommon 9 > 
+rommon 9 > 
+rommon 9 > 
+rommon 9 > 
+rommon 9 > 
+rommon 9 > 
+rommon 9 > 
+rommon 9 > en
+
+monitor: command "en" not found
+rommon 10 > dir
+
+List of filesystems currently registered:
+
+               flash[0]: (read-write)
+
+rommon 11 > reload
+
+monitor: command "reload" not found
+rommon 12 > reset
+rommon 13 > 
+System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 2005 by cisco Systems, Inc.
+
+C870 series (Board ID: 1-148) platform with 131072 Kbytes of main memory
+
+
+
+*Mar  1 00:00:03.983: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State changed to: Initialized 
+*Mar  1 00:00:04.047: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State changed to: Enabled 
+*Mar  1 00:00:07.743: %LINK-3-UPDOWN: Interface FastEthernet0, changed state to up
+*Mar  1 00:00:08.471: %SYS-5-CONFIG_I: Configured from memory by console
+*Aug 21 23:25:47.339: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0, changed state to up
+*Aug 21 23:25:47.371: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+*Aug 21 23:25:47.375: %SNMP-5-COLDSTART: SNMP agent on host Router is undergoing a cold start
+*Aug 21 23:25:47.455: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Aug 21 23:25:47.455: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Aug 21 23:25:48.483: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to up
+*Aug 21 23:25:48.823: %LINK-5-CHANGED: Interface ATM0, changed state to administratively down
+*Aug 21 23:25:48.979: %LINK-3-UPDOWN: Interface FastEthernet3, changed state to up
+*Aug 21 23:25:48.983: %LINK-3-UPDOWN: Interface FastEthernet2, changed state to up
+*Aug 21 23:25:48.991: %LINK-3-UPDOWN: Interface FastEthernet1, changed state to up
+*Aug 21 23:25:48.995: %LINK-3-UPDOWN: Interface FastEthernet0, changed state to up
+*Aug 21 23:25:49.823: %LINEPROTO-5-UPDOWN: Line protocol on Interface ATM0, changed state to down
+*Aug 21 23:25:49.979: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet3, changed state to up
+*Aug 21 23:25:49.983: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet2, changed state to down
+*Aug 21 23:25:49.991: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet1, changed state to down
+*Aug 21 23:25:49.995: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0, changed state to down
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>TFTP_SERVER=192.168.1.2
+% Unknown command or computer name, or unable to find computer address
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 1 minute
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router>
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router>h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router>h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router>
+Router>
+Router>sh ver 
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router>
+Router>sh ver 
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router>
+Router>
+
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>conf ter
+          ^
+% Invalid input detected at '^' marker.
+
+Router>sh interface 
+FastEthernet0 is up, line protocol is down 
+  Hardware is Fast Ethernet, address is 0017.9531.ad84 (bia 0017.9531.ad84)
+  MTU 1500 bytes, BW 100000 Kbit, DLY 100 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 2 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+ 
+Router>o shut
+       ^
+% Invalid input detected at '^' marker.
+
+Router>
+
+
+
+
+
+
+
+Router>en
+Router#sh run
+Building configuration...
+
+Current configuration : 735 bytes
+!
+version 12.4
+no service pad
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Router
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+!
+resource policy
+!
+ip cef
+!
+!
+!
+ 
+Router#n
+% Ambiguous command:  "n"
+Router#sh run
+Building configuration...
+
+Current configuration : 735 bytes
+!
+version 12.4
+no service pad
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Router
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+!
+resource policy
+!
+ip cef
+!
+!
+!
+ 
+Router#n
+% Ambiguous command:  "n"
+Router#sh run
+Building configuration...
+
+Current configuration : 735 bytes
+!
+version 12.4
+no service pad
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Router
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+!
+resource policy
+!
+ip cef
+!
+!
+!
+ !
+ !
+ !
+ ! 
+ !
+ !
+ !
+ interface ATM0
+  no ip address
+  shutdown
+  no atm ilmi-keepalive
+  dsl operating-mode auto 
+ !
+ interface FastEthernet0
+ !
+ interface FastEthernet1
+ !
+ interface FastEthernet2
+ !
+ interface FastEthernet3
+ !
+ interface Vlan1
+  no ip address
+ !
+ !
+ no ip http server
+ no ip http secure-server
+ !
+ !
+ !
+ !
+ control-plane
+ !
+ !
+ line con 0
+  no modem enable
+ line aux 0
+ line vty 0 4
+  login
+ !
+ scheduler max-task-time 5000
+ !
+ webvpn context Default_context
+  ssl authenticate verify all
+  !
+  no inservice
+ !
+ end
+ 
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 30 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#nable
+Translating "nable"...domain server (255.255.255.255)
+% Unknown command or computer name, or unable to find computer address
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#
+Router#
+Router#
+Router#
+Router#sh ver 
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 30 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#conf ter
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#INT eth0
+                   ^
+% Invalid input detected at '^' marker.
+
+Router(config)#int f1
+Router(config-if)#ip address 192.168.1.1 255.255.255.0
+
+% IP addresses may not be configured on L2 links.
+
+Router(config-if)#end
+Router#
+*Aug 21 23:57:26.899: %SYS-5-CONFIG_I: Configured from console by console
+
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 57 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router>
+Router>
+Router>
+
+
+Router>
+Router>
+Router>
+Router>
+Router>
+
+
+
+
+
+
+
+
+
+
+
+
+
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 16 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router>h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 16 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router>h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 16 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router>h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 16 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router>h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 16 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router>h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 16 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router>h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 16 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router>h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 16 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router>h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 16 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router>h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 16 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router>h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 16 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router>h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router>
+sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 18 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router>
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 18 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router>
+Router>
+Router>
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 18 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router>h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router>
+
+Router>
+Router>
+Router>
+Router>sh run
+           ^
+% Invalid input detected at '^' marker.
+
+Router>sh ver 
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 19 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router>
+Router>
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 20 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router>
+Router>
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 20 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router>h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router>
+
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+Router>
+sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 22 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router>
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 23 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router>h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router>
+sh ver 
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 23 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router>
+Router>sh ver 
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 23 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router>
+Router>
+Router>
+Router>sh ver 
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 24 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router>
+Router>
+Router>
+Router>
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 24 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router>h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router>
+enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 25 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router#
+Router#
+Router#
+Router#
+Router#enable
+Router#
+Router#
+Router#
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#enable
+Router#y
+Translating "y"...domain server (255.255.255.255)
+% Unknown command or computer name, or unable to find computer address
+Router#y
+% Unknown command or computer name, or unable to find computer address
+Router#y
+% Unknown command or computer name, or unable to find computer address
+Router#y
+% Unknown command or computer name, or unable to find computer address
+Router#y
+Translating "y"...domain server (255.255.255.255)
+% Unknown command or computer name, or unable to find computer address
+Router#y
+% Unknown command or computer name, or unable to find computer address
+Router#y
+% Unknown command or computer name, or unable to find computer address
+Router#y
+% Unknown command or computer name, or unable to find computer address
+Router#
+
+Router#
+Router#
+Router#
+Router#
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 26 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 27 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 27 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 27 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 27 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 27 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#
+
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 29 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router#
+Router#
+Router#
+
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 30 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 30 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 30 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 
+Router#xit
+Translating "xit"...domain server (255.255.255.255)
+% Unknown command or computer name, or unable to find computer address
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 31 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router#
+Router#
+Router#
+Router#
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 31 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router#
+Router#
+Router#
+Router#
+Router#
+sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 33 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router#
+Router#
+Router#
+Router#
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 33 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 33 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 33 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 33 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 34 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#
+fgfgfgf
+Translating "fgfgfgf"...domain server (255.255.255.255)
+% Unknown command or computer name, or unable to find computer address
+Router#
+sfs
+Translating "sfs"...domain server (255.255.255.255)
+% Unknown command or computer name, or unable to find computer address
+Router#
+Router#
+Router#
+
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 40 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#
+
+Router#
+Router#
+Router#
+Router#
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 41 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 41 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 41 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#
+
+Router#
+Router#
+Router#
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 43 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 43 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 43 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 43 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ --More-- 
+        
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router#
+Router#
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 44 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#
+        
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 49 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 49 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 49 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 49 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 49 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ --More-- 
+        
+Router#h ver
+help ver
+     ^
+% Invalid input detected at '^' marker.
+
+Router#sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 50 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router#
+Router#
+Router#
+Router#
+Router#
+?
+Exec commands:
+  access-enable    Create a temporary Access-List entry
+  access-profile   Apply user-profile to interface
+  access-template  Create a temporary Access-List entry
+  archive          manage archive files
+  cd               Change current directory
+  clear            Reset functions
+  clock            Manage the system clock
+  cns              CNS agents
+  configure        Enter configuration mode
+  connect          Open a terminal connection
+  copy             Copy from one file to another
+  crypto           Encryption related commands.
+  ct-isdn          Run an ISDN component test command
+  debug            Debugging functions (see also 'undebug')
+  delete           Delete a file
+  dir              List files on a filesystem
+  disable          Turn off privileged commands
+  disconnect       Disconnect an existing network connection
+  dot11            IEEE 802.11 commands
+  dot1x            IEEE 802.1X Exec Commands
+  enable           Turn on privileged commands
+   erase            Erase a filesystem
+   event            Event related commands
+   exit             Exit from the EXEC
+   format           Format a filesystem
+   fsck             Fsck a filesystem
+   help             Description of the interactive help system
+   isdn             Run an ISDN EXEC command on an ISDN interface
+   lock             Lock the terminal
+   login            Log in as a particular user
+   logout           Exit from the EXEC
+   mkdir            Create new directory
+   monitor          Monitoring different system events
+   more             Display the contents of a file
+   mrinfo           Request neighbor and version information from a multicast
+                    router
+   mstat            Show statistics after multiple multicast traceroutes
+   mtrace           Trace reverse multicast path from destination to source
+   name-connection  Name an existing network connection
+   no               Disable debugging functions
+   ping             Send echo messages
+   ppp              Start IETF Point-to-Point Protocol (PPP)
+   pwd              Display current working directory
+   release          Release a resource
+   reload           Halt and perform a cold restart
+   rename           Rename a file
+   renew            Renew a resource
+   restart          Restart Connection
+   resume           Resume an active network connection
+   rmdir            Remove existing directory
+   rsh              Execute a remote command
+   send             Send a message to other tty lines
+   set              Set system parameter (not config)
+   setup            Run the SETUP command facility
+   show             Show running system information
+   slip             Start Serial-line IP (SLIP)
+   ssh              Open a secure shell client connection
+   start-chat       Start a chat-script on a line
+   systat           Display information about terminal lines
+   tclquit          Quit Tool Command Language shell
+   tclsh            Tool Command Language shell
+   telnet           Open a telnet connection
+   terminal         Set terminal line parameters
+   test             Test subsystems, memory, and interfaces
+   tms              Threat Mitigation Service
+   traceroute       Trace route to destination
+   tunnel           Open a tunnel connection
+   undebug          Disable debugging functions (see also 'debug')
+   upgrade          Upgrade software
+   verify           Verify a file
+   vlan             Configure VLAN parameters
+   webvpn           WebVPN commands
+   where            List active connections
+   write            Write running configuration to memory, network, or terminal
+ 
+Router#
+Router#
+Router#sh flash
+24576K bytes of processor board System flash (Intel Strataflash)
+
+Directory of flash:/
+
+    2  -rwx    13541712   --- -- ---- --:--:-- -----  c870-advsecurityk9-mz.124-6.T6.bin
+
+23482368 bytes total (9934848 bytes free)
+Router#dir
+Directory of flash:/
+
+    2  -rwx    13541712   --- -- ---- --:--:-- -----  c870-advsecurityk9-mz.124-6.T6.bin
+
+23482368 bytes total (9934848 bytes free)
+Router#copy run start
+Destination filename [startup-config]? 
+Building configuration...
+[OK]
+Router#
+Router#y
+Translating "y"...domain server (255.255.255.255)
+% Unknown command or computer name, or unable to find computer address
+Router#n
+% Ambiguous command:  "n"
+Router#exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Router con0 is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+Router>
+Router>
+Router>
+Router>
+Router>sh ver
+Cisco IOS Software, C870 Software (C870-ADVSECURITYK9-M), Version 12.4(6)T6, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 08-Dec-06 22:44 by kellythw
+
+ROM: System Bootstrap, Version 12.3(8r)YI2, RELEASE SOFTWARE
+
+Router uptime is 2 hours, 54 minutes
+System returned to ROM by reload
+System image file is "flash:c870-advsecurityk9-mz.124-6.T6.bin"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+ 
+ A summary of U.S. laws governing Cisco cryptographic products may be found at:
+ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+ 
+ If you require further assistance please contact us by sending email to
+ export@cisco.com.
+ 
+ Cisco 877 (MPC8272) processor (revision 0x200) with 118784K/12288K bytes of memory.
+ Processor board ID FCZ1020234E
+ MPC8272 CPU Rev: Part Number 0xC, Mask Number 0x10
+ 4 FastEthernet interfaces
+ 1 ATM interface
+ 128K bytes of non-volatile configuration memory.
+ 24576K bytes of processor board System flash (Intel Strataflash)
+ 
+ Configuration register is 0x2102
+ 
+Router>
+Router>
+Router>
+Router>
+Router>
+
+en
+Router#copy running-config flash:conf01082013.txt
+Destination filename [conf01082013.txt]? 
+
+735 bytes copied in 1.644 secs (447 bytes/sec)
+Router#en
+Router#conf ter
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#
+
+
+
+

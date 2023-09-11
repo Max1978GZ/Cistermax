@@ -1,0 +1,13 @@
+C:\Users\zeus\Desktop\Cistermax1.0\bin\Debug\Cistermax.exe
+C:\Users\zeus\Desktop\Cistermax1.0\bin\Debug\Cistermax.pdb
+C:\Users\zeus\Desktop\Cistermax1.0\bin\Debug\Cistermax.xml
+C:\Users\zeus\Desktop\Cistermax1.0\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\zeus\Desktop\Cistermax1.0\obj\Debug\Cistermax.TerMulCisco.resources
+C:\Users\zeus\Desktop\Cistermax1.0\obj\Debug\Cistermax.Resources.resources
+C:\Users\zeus\Desktop\Cistermax1.0\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\zeus\Desktop\Cistermax1.0\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\zeus\Desktop\Cistermax1.0\obj\Debug\Cistermax.exe
+C:\Users\zeus\Desktop\Cistermax1.0\obj\Debug\Cistermax.xml
+C:\Users\zeus\Desktop\Cistermax1.0\obj\Debug\Cistermax.pdb
+C:\Users\zeus\Desktop\Cistermax1.0\obj\Debug\Cistermax.FrmAcercade.resources
+C:\Users\zeus\Desktop\Cistermax1.0\obj\Debug\Cistermax.FrmAyuda.resources

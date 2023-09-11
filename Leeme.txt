@@ -1,0 +1,21 @@
+﻿[Configuracion del Hiperterminal ]
+9600    8bits datos no paridad  1bit de stop serisl break lenght 100
+
+[Cosas por solucionar]
+solucionado a medias ->no elimina el --more- al ejecutar sh ver o sh run
+no cambia la IP del pc automaticamente hay que hacerlo a mano
+
+
+
+[historial]
+1/8/2013
+se quitan botones que no son necesarios
+se activa enviar comando al pulsar enter
+se elimina el more en comandos sh ver y sh run
+
+
+
+
+
+
+
